@@ -4,7 +4,7 @@
 One of the challenges of constructing stoichiometric models of large reaction networks is quality assurance of the proposed chemical reactions, i.e., all the reactions we include in the model must be chemically balanced. If we have only a few reactions, we can check the correctness of the reactions by hand. However, this is not possible when we have models with hundreds or thousands of reactions (which are common when dealing with biochemical models). Thus, we need a method to identify when a reaction is not balanced that can be used for many reactions.
 
 ### Atom matrix
-One way to check many reactions is to construct the atom matrix $\mathbf{A}$ whose rows are compounds, and the columns correspond to elements, e.g., $C,H,N,\dots$. Once we have the atom matrix $\mathbf{A}$, we can compute the difference matrix $\mathbf{\Delta}$:
+One way to check many reactions is to construct the atom matrix $\mathbf{A}$. The rows of the atom matrix $\mathbf{A}$ correspond to compounds, while the columns correspond to elements, e.g., $C,H,N,\dots$. Once we have the atom matrix $\mathbf{A}$, we can compute the matrix $\mathbf{\Delta}$:
 
 $$
 \mathbf{\Delta} = \mathbf{A}^{T}\mathbf{S}
@@ -15,10 +15,10 @@ where $\mathbf{A}^{T}$ denotes the transpose of the atom matrix, and $\mathbf{S}
 ## Tasks
 Let's check the reactions in the _E.coli_ model contained in the `e_coli_core.json` file downloaded from the [BiGG models database](http://bigg.ucsd.edu/models/e_coli_core) and stored in the `data` subdirectory.
 
-1. Fill in the missing implementations in the template code to build the atom matrix $\mathbf{A}$ 
+1. Fill in the missing implementations in the template code to build the atom matrix $\mathbf{A}$ for the element set $\left\{C,H,N,O,P,S\right\}$.
 1. Fill in the missing implementations in the template code to build the stoichiometric matrix $\mathbf{S}$.
 1. Compute the $\mathbf{\Delta} = \mathbf{A}^{T}\mathbf{S}$ matrix. 
-    1. Which reactions are _unbalanced_?
+    1. Which reactions in the _E.coli_ model are _unbalanced_?
 
 ### Assessment
 * The teaching team will execute the `Submit.jl` script with your program functions. 

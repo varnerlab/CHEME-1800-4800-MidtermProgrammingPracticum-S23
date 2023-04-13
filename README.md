@@ -26,6 +26,6 @@ Let's check the reactions in the _E.coli_ model contained in the `e_coli_core.js
 * The teaching team will evaluate whether the submission guidelines were followed.
 
 ### Rules, deadlines, and submission guidelines
-* The mid-term practicum is due on __Tuesday, April 18, 2023__ by __11:59 AM__ ITH time. 
+* The mid-term practicum is due on __Tuesday, April 18, 2023__ by __11:50 PM__ ITH time. 
 * You may use your course materials and any literature resources (as well as the internet) to formulate your solutions.
 * You may __NOT__ work in terms. This is an __individual assignment__. Submit your solution to the GitHub Classroom link by the deadline. 

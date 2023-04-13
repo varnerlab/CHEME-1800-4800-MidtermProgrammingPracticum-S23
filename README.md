@@ -15,7 +15,7 @@ where $\mathbf{A}^{T}$ denotes the transpose of the atom matrix, and $\mathbf{S}
 ## Tasks
 Let's check the reactions in the _E.coli_ model contained in the `e_coli_core.json` file downloaded from the [BiGG models database](http://bigg.ucsd.edu/models/e_coli_core) and stored in the `data` subdirectory.
 
-1. Fill in the missing implementations in the template code to build the atom matrix $\mathbf{A}$ for the elements $\left(C,H,N,O,P,S)$.
+1. Fill in the missing implementations in the template code to build the atom matrix $\mathbf{A}$ for the elements $\left(C,H,N,O,P,S\right)$.
 1. Fill in the missing implementations in the template code to build the stoichiometric matrix $\mathbf{S}$.
 1. Compute the $\mathbf{\Delta} = \mathbf{A}^{T}\mathbf{S}$ matrix. 
     1. Which reactions in the _E.coli_ model are _unbalanced_?
